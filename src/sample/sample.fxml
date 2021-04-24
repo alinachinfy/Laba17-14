@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Pane prefHeight="200.0" prefWidth="277.0">
+         <children>
+            <Label fx:id="labelA" layoutX="23.0" layoutY="43.0" text="a" />
+            <Label fx:id="labelB" layoutX="23.0" layoutY="69.0" text="b" />
+            <Label fx:id="labelSum" layoutX="23.0" layoutY="100.0" text="sum" />
+            <Button fx:id="buttonCalc" layoutX="113.0" layoutY="125.0" mnemonicParsing="false" text="Calculate" />
+            <Button fx:id="buttonClear" layoutX="113.0" layoutY="161.0" mnemonicParsing="false" text="Clear" />
+            <TextField fx:id="textA" layoutX="90.0" layoutY="39.0" />
+            <TextField fx:id="textB" layoutX="90.0" layoutY="65.0" />
+            <TextField fx:id="textSum" layoutX="90.0" layoutY="96.0" />
+         </children></Pane>
+   </children>
+</GridPane>
